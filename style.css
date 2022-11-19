@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Work+Sans:wght@300&display=swap');
+
+li{
+    list-style: none;
+}
+
+.menuLogo{
+    width: 268px;
+    height: 33px;
+    margin-top: 8px;
+}
+.menuLogo,.mainMenu,.subMenu:hover{
+    cursor: pointer;
+}
+
+.subMenu{
+    display: none;
+    position: absolute;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    width: 180px;
+    height: 223px;
+    margin-left: -100px;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.mainMenu{
+    display: flex;
+}
+
+.mianMenuItem{
+    margin-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ABABAB;
+}
+.mianMenuItem:hover .subMenu{
+    display: block;
+}
+li:hover{
+    color: #00BFA5;
+}
+.subMenuItem{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ABABAB;
+    height: 28px;
+    width: 180px;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+   
+    
+}
+#marketing{
+    margin-top: 8px;
+}
+.subMenuItem:hover{
+    background-color: #F6F8F8;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: #00bfa5;
+}
